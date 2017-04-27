@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>REGISTRATION</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type ="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body>
+
+	<header class="container">
+		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		  <div class="container-fluid">
+			
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="index.html">Main Page</a>
+			</div>
+
+			
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li><a href="aboutme.html">About Me <span class="sr-only">(current)</span></a></li>
+				<li><a href="photos.html">Photos</a></li>
+				<li class="active"><a href="registration.html">Registration Form</a></li>
+				<li><a href="hobies.html">Hobbies</a></li>
+				<li><a href="contact.html">Contact Me</a></li>
+
+			  </ul>
+			  
+			  <ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Membership Login  <span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+					<li><form class="navbar-form navbar-left">
+							<div class="form-group">
+							  <input type="text" class="form-control" placeholder="ID-NAME">
+							</div>
+							<div class="form-group">
+							  <input type="text" class="form-control" placeholder="Password">
+							</div>
+							<button type="button" class="btn btn-primary">Login</button>
+							<a href = "index.html">	<button type="button" class="btn btn-danger">Exit</button></a>
+						 </form></li>
+					<li><a href="registration.html">Sign Up</a></li>
+					
+				  </ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		
+		<br><br>
+		
+		
+		<div class="well h500">
+
+<center><h1>Registration Form</h1></center>
+
+</div>
+	<div class="well h500">
+	<fieldset><legend><b>Information of the person</b></legend>
+	
+	<form action="http://www.google.com" method ="POST" enctype="multipart/form-data">
+	
+	<table border="1" ><tr>
+	<td>Member Name :</td><td><input type ="text" name ="textnameofregister"></td>
+	<td><input type ="button" value ="Check it" ><span class="glyphicon glyphicon glyphicon-ok"></span></td></tr>
+	<tr><td>E-mail :</td><td><input type ="text" name="textE-mail"></td></tr>
+	<tr><td>Password :</td><td> <input type ="password" name ="password"></td></tr>
+	<tr><td>Name :</td><td><input type ="text" name ="textname" required></td></tr><br>
+	<tr><td>Surname :</td><td> <input type ="text" name ="textname" required></td></tr> 	 
+	<tr><td>Birthday : </td><td><input type ="date" id ="birtday" name ="birtday"></td></tr><br>
+		<tr><td> Photo : </td><td> <input type ="file" name ="photo"></td></tr>
+		  <td><input type="submit" value = "upload the photo"></td>
+		</table>
+		 
+	
+	<b>Gender: <span class="glyphicon glyphicon glyphicon-user" style="color: blue"></span></b>
+	 	 Male <input type="radio" name="choose">
+		 Female <input type="radio" name="choose"><br><br>
+	
+	<b>Point of Interest :</b> <br>
+	Software     <input type ="checkbox" name ="checksoftware" >
+	Hardware  	 <input type ="checkbox" name ="checkhardware"  >
+	Mobile 	     <input type ="checkbox" name ="checkmobile" >
+	Web          <input type ="checkbox" name ="checkweb">
+	Network      <input type ="checkbox" name ="checknetwork"><br><br>
+	
+	<b>Place of birth :</b> <select name ="city" size ="1" >
+		<option value ="city">Istanbul</option>
+		<option value ="city">Ankara</option>
+		<option value ="city">Izmir</option>
+		<option value ="city">Bursa</option>
+		<option value ="city">Trabzon</option>
+		<option value ="city">Others</option></select><br><br>
+		
+		<b>Text : </b> <br>
+		<textarea name ="text" cols ="40" rows="10">
+		</textarea><br><br>
+		<span class="glyphicon glyphicon glyphicon-thumbs-up" style="color: blue"></span>
+		<input type = "submit" value ="send">
+		<input type = "reset"  value ="clear">
+		
+		
+		 
+	</form>
+	</fieldset>
+		
+		
+		
+		
+		
+		
+	</div>
+		
+	</header>
+	<br><br>
+	
+	
+
+	
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src ="js/bootstrap.min.js"></script>
+</body>
+</html>

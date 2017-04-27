@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* custom*/
+
+
+body{
+	
+	
+	background: url(../img/in.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	
+}
+
+.p0{
+	
+	padding: 0px;
+}
+
+
+.m0{
+	
+	margin: 0px;
+}
+
+.h500{
+	
+	
+	height: 800;
+	
+	
+}
+
+.hobi{
+	
+	background-image: url(../img/hobi.jpg);
+}
+
+
+
+
+
